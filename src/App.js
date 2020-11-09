@@ -14,8 +14,8 @@ export function Header() {
               <p>prashant.gurukul6893@gmail.com<i class="far fa-envelope"></i></p>
               <p>+91-98733-90537 <i class="fas fa-mobile"></i></p>
               <p>Noida, India <i class="fas fa-map-marker-alt"></i></p>
-              <p><a href="https://www.linkedin.com/in/prashant-gupta-0693/" target="_blank" class="profilelinks">linkedin.com/in/prashant-gupta-0693</a> <i class="fab fa-linkedin"></i></p>
-              <p><a href="https://portfolio-prashant.netlify.app/" target="_blank"  class="profilelinks">portfolio-prashant.netlify.app</a> <i class="fas fa-link"></i></p>
+              <p><a href="https://www.linkedin.com/in/prashant-gupta-0693/" target="_blank" rel="noreferrer" class="profilelinks">linkedin.com/in/prashant-gupta-0693</a> <i class="fab fa-linkedin"></i></p>
+              <p><a href="https://portfolio-prashant.netlify.app/" target="_blank" rel="noreferrer"  class="profilelinks">portfolio-prashant.netlify.app</a> <i class="fas fa-link"></i></p>
           </div>
       </td>
     </tr>
@@ -385,13 +385,13 @@ export function Achievements(){
   return( <td>
     <div class="line-1">
         <p class="job-title">Ranked in top 500 member on Hackthebox platform with Hacker Rank</p>
-        <p class="job-company "><a href="https://www.hackthebox.eu/" target="_blank"  class="acheive">hackthebox.eu</a></p>
+        <p class="job-company "><a href="https://www.hackthebox.eu/" target="_blank" rel="noreferrer"  class="acheive">hackthebox.eu</a></p>
         <br/>
     </div>
 
     <div class="line-1">
         <p class="job-title">Completed from basic to max level web challenges of NATAS: Overthewire</p>
-        <p class="job-company"><a href="https://overthewire.org/wargames/natas/" target="_blank" class="acheive">overthewire.org/wargames/natas</a></p><br/>
+        <p class="job-company"><a href="https://overthewire.org/wargames/natas/" target="_blank" rel="noreferrer"  class="acheive">overthewire.org/wargames/natas</a></p><br/>
     </div>
 </td>);
 }
